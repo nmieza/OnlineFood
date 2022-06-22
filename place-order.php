@@ -232,7 +232,7 @@ $verified = $row['verified'];
                         <div class="input-field col s12">
                           <i class="mdi-action-home prefix"></i>
 							<textarea name="address" id="address" class="materialize-textarea validate" data-error=".errorTxt1"><?php echo $address;?></textarea>
-							<label for="address" class="">Address</label>
+							<label for="address" class="">Table No</label>
 							<div class="errorTxt1"></div>
                         </div>
                       </div>
