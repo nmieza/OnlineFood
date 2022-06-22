@@ -7,7 +7,7 @@ $total = 0;
 $result = mysqli_query($con, "SELECT * FROM users where id = $user_id");
 while($row = mysqli_fetch_array($result)){
 $name = $row['name'];	
-$table_no = $row['table_no'];
+$address = $row['address'];
 $contact = $row['contact'];
 $verified = $row['verified'];
 }
@@ -231,8 +231,8 @@ $verified = $row['verified'];
                       <div class="row">
                         <div class="input-field col s12">
                           <i class="mdi-action-home prefix"></i>
-							<textarea name="table_no" id="table_no" class="materialize-textarea validate" data-error=".errorTxt1"><?php echo $table_no;?></textarea>
-							<label for="table_no" class="">Table No</label>
+							<textarea name="address" id="address" class="materialize-textarea validate" data-error=".errorTxt1"><?php echo $address;?></textarea>
+							<label for="address" class="">Address</label>
 							<div class="errorTxt1"></div>
                         </div>
                       </div>
@@ -400,7 +400,7 @@ $verified = $row['verified'];
 	<script type="text/javascript">
     $("#formValidate").validate({
         rules: {
-            table_no: {
+            address: {
                 required: true,
                 minlength: 5
             },
@@ -414,8 +414,8 @@ $verified = $row['verified'];
 			},
 		},
         messages: {
-          table_no:{
-                required: "Enter a table_no",
+           address:{
+                required: "Enter a address",
                 minlength: "Enter at least 5 characters"
             },	
            cc_number:{
