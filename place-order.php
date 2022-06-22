@@ -224,7 +224,7 @@ $verified = $row['verified'];
 							<label for="payment_type">Payment Type</label><br><br>
 							<select id="payment_type" name="payment_type">
 									<option value="Wallet" selected>Wallet</option>
-									<option value="Cash On Delivery" <?php if(!$verified) echo 'disabled';?>>Cash on Delivery</option>							
+									<option value="Cash" <?php if(!$verified) echo 'disabled';?>>Cash</option>							
 							</select>
                         </div>
                       </div>					
@@ -446,7 +446,7 @@ $verified = $row['verified'];
           'persistent': true
       });
 		$('#payment_type').change(function() {
-		if ($(this).val() === 'Cash On Delivery') {
+		if ($(this).val() === 'Cash') {
 		  $("#cc_number").prop('disabled', true);
 		  $("#cvv_number").prop('disabled', true);		  
 		}
