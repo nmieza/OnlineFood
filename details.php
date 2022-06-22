@@ -259,8 +259,8 @@ $username = $row['username'];
                       <div class="row">
                         <div class="input-field col s12">
                           <i class="mdi-action-home prefix"></i>
-                          <textarea name="address" id="address" class="materialize-textarea validate" data-error=".errorTxt6"><?php echo $address;?></textarea>
-                          <label for="address" class="">Table No</label>
+                          <textarea name="Table No" id="address" class="materialize-textarea validate" data-error=".errorTxt6"><?php echo $address;?></textarea>
+                          <label for="Table No" class="">Table No</label>
 						  <div class="errorTxt6"></div>
                         </div>
                         <div class="row">
