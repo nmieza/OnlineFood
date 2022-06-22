@@ -368,7 +368,7 @@ include 'includes/connect.php';
 				},';
 				echo $row["id"].'_price:{
 				required: "Ener price of item",
-				min: "Minimum item price is Rs. 0"
+				min: "Minimum item price is RM 0"
 				},';				
 			}
 		echo '},';
@@ -403,7 +403,7 @@ include 'includes/connect.php';
 			},
 		 price: {
 				required: "Enter item price",
-				minlength: "Minimum item price is Rs.0"
+				minlength: "Minimum item price is RM 0"
 			},
 	},
 		errorElement : 'div',

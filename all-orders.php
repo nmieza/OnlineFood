@@ -230,7 +230,7 @@ include 'includes/connect.php';
                             <span>'.$row1['quantity'].' Pieces</span>
                             </div>
                             <div class="col s3">
-                            <span>Rs. '.$row1['price'].'</span>
+                            <span>RM '.$row1['price'].'</span>
                             </div>
                             </div>
                             </li>';
@@ -244,7 +244,7 @@ include 'includes/connect.php';
 											<span> </span>
                                             </div>
                                             <div class="col s3">
-                                                <span><strong>Rs. '.$row['total'].'</strong></span>
+                                                <span><strong>RM '.$row['total'].'</strong></span>
                                             </div>';										
 								if(!$deleted){
 								echo '<button class="btn waves-effect waves-light right submit" type="submit" name="action">Change Status
