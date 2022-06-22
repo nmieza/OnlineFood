@@ -273,7 +273,7 @@ include 'includes/wallet.php';
     <div class="footer-copyright">
       <div class="container">
         <span>Copyright © 2022 <a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Miza, Maji, Anis</a></span>
+        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Students</a></span>
         </div>
     </div>
   </footer>
