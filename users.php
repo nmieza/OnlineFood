@@ -213,7 +213,7 @@ include 'includes/connect.php';
                         <th data-field="name">Name</th>
                         <th data-field="price">Email</th>
                         <th data-field="price">Contact</th>
-                        <th data-field="price">Address</th>	
+                        <th data-field="price">Table No</th>	
                         <th data-field="price">Role</th>
                         <th data-field="price">Verified</th>
                         <th data-field="price">Enable</th>
@@ -278,7 +278,7 @@ include 'includes/connect.php';
                         <th data-field="name">Name</th>
                         <th data-field="price">Email</th>
                         <th data-field="price">Phone number</th>
-                        <th data-field="price">Address</th>	
+                        <th data-field="price">Table No</th>	
                         <th data-field="price">Role</th>
                         <th data-field="price">Verified</th>
                         <th data-field="price">Enable</th>		
