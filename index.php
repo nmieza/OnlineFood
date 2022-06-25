@@ -97,11 +97,7 @@ include 'includes/wallet.php';
                 <div class="nav-wrapper">
                     <ul class="left">                      
                       <li><h1 class="logo-wrapper"><a href="index.php" ><?php echo "Roslida Restaurant E-Menu Ordering System" ?></a> <span class="logo-text">Roslida Restaurant</span></h1></li>
-                    </ul>
-                    <ul class="right hide-on-med-and-down">                        
-                        <li><a href="#" class="waves-effect waves-block waves-light"><i class="mdi-editor-attach-money"></i></a>
-                        </li>
-                    </ul>					
+                    </ul>	
                 </div>
             </nav>
         </div>
