@@ -96,7 +96,7 @@ include 'includes/wallet.php';
             <nav class="navbar-color">
                 <div class="nav-wrapper">
                     <ul class="left">                      
-                      <li class="logo-wrapper"><a href="index.php" ><?php echo "Roslida Restaurant E-Menu Ordering System" ?></a> <span class="logo-text">Roslida Restaurant E-Menu Ordering System</span></li>
+                      <li class="logo-wrapper"><a href="index.php" class="brand-logo darken-1" ><?php echo "Roslida Restaurant E-Menu Ordering System" ?></a> <span class="logo-text">Roslida Restaurant E-Menu Ordering System</span></li>
                     </ul>	
                 </div>
             </nav>
