@@ -56,10 +56,7 @@ include 'includes/wallet.php';
                     <ul class="left">                      
                       <li><h1 class="logo-wrapper"><a href="index.php" class="brand-logo darken-1"><?php echo "Roslida Restaurant E-Menu Ordering System" ?></a> <span class="logo-text">Roslida Restaurant E-Menu Ordering System</span></h1></li>
                     </ul>
-                    <ul class="right hide-on-med-and-down">                        
-                        <li><a href="#"  class="waves-effect waves-block waves-light"><i class="mdi-editor-attach-money"><?php echo $balance;?></i></a>
-                        </li>
-                    </ul>						
+                    					
                 </div>
             </nav>
         </div>
