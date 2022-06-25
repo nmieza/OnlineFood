@@ -193,7 +193,7 @@ include 'includes/wallet.php';
                               <span class="collection-header">Order No. '.$row['id'].'</span>
                               <p><strong>Date:</strong> '.$row['date'].'</p>
                               <p><strong>Payment Type:</strong> '.$row['payment_type'].'</p>
-							  <p><strong>Address: </strong>'.$row['address'].'</p>							  
+							  <p><strong>Table No: </strong>'.$row['address'].'</p>							  
                               <p><strong>Status:</strong> '.($status=='Paused' ? 'Paused <a  data-position="bottom" data-delay="50" data-tooltip="Please contact administrator for further details." class="btn-floating waves-effect waves-light tooltipped cyan">    ?</a>' : $status).'</p>							  
 							  '.(!empty($row['description']) ? '<p><strong>Note: </strong>'.$row['description'].'</p>' : '').'						                               
 							  <a href="#" class="secondary-content"><i class="mdi-action-grade"></i></a>
