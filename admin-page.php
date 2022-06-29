@@ -156,18 +156,7 @@ include 'includes/connect.php';
                 </li>
                  
 							
-								<?php
-									$sql = mysqli_query($con, "SELECT DISTINCT status FROM tickets;");
-									while($row = mysqli_fetch_array($sql)){
-                                    echo '<li><a href="all-tickets.php?status='.$row['status'].'">'.$row['status'].'</a>
-                                    </li>';
-									}
-									?>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </li>			
+								
             <li class="bold"><a href="users.php" class="waves-effect waves-cyan"><i class="mdi-social-person"></i> Users</a>
             </li>				
         </ul>
