@@ -216,8 +216,7 @@ include 'includes/connect.php';
                         <th data-field="price">Table No</th>	
                         <th data-field="price">Role</th>
                         <th data-field="price">Verified</th>
-                        <th data-field="price">Enable</th>
-                        <th data-field="price">Wallet</th>						
+                        <th data-field="price">Enable</th>					
                       </tr>
                     </thead>
 
