@@ -209,7 +209,7 @@ include 'includes/connect.php';
 							echo '<li class="collection-item">
                             <div class="row">
 							<p><strong>Name: </strong>'.$row3['name'].'</p>
-							<p><strong>Table No: </strong>'.$row['Table No'].'</p>
+							<p><strong>Table No: </strong>'.$row['Address'].'</p>
 							'.($row3['contact'] == '' ? '' : '<p><strong>Contact: </strong>'.$row3['contact'].'</p>').'	
 							'.($row3['email'] == '' ? '' : '<p><strong>Email: </strong>'.$row3['email'].'</p>').'		
 							'.(!empty($row['description']) ? '<p><strong>Note: </strong>'.$row['description'].'</p>' : '').'								
