@@ -156,10 +156,10 @@ include 'includes/connect.php';
                 </li>
                  <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
-                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-question-answer"></i> Complain</a>
+                        <li class="bold"><a class="collapsible-header waves-effect waves-cyan"><i class="mdi-action-question-answer"></i> Complaint</a>
                             <div class="collapsible-body">
                                 <ul>
-								<li><a href="all-tickets.php">All Complain</a>
+								<li><a href="all-tickets.php">All Complaint</a>
                                 </li>
 								<?php
 									$sql = mysqli_query($con, "SELECT DISTINCT status FROM tickets;");
